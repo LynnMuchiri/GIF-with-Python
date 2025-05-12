@@ -1,9 +1,9 @@
 import imageio.v3 as iio
 
-filenames = ['1.jpg', '4.jpg', '7.jpeg']
+path = ['gifs/1.jpg', 'gifs/4.jpg', 'gifs/7.jpeg']
 images = []
 
-for filename in filenames:
+for filename in path:
     images.append(iio.imread(filename))
 
     iio.imwrite('hello.gif',images, duration = 500, loop = 0)
