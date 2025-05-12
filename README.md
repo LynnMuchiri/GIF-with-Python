@@ -5,19 +5,23 @@ It combines the images into an animated GIF using imageio library.
 
 # Features
 
-Combines images into a GIF
-Set custom duration between frames
-Loop animation setting
+- Combines images into a GIF
+- Set custom duration between frames
+- Loop animation setting
 
 # Requirements
 
-~ Install python 3.
+- Install python 3.
 
-pip install pillow imageio
+`pip install pillow imageio`
 
-Add images to the gifs/folder.
-Run the script.
+- Add images to the gifs/folder.
+- Run the script.
 
-python create_gif.py
+`python create_gif.py`
 
-Your output will be saved in the project folder.
+- Your output will be saved in the project folder.
+
+# Licence
+
+The project is open source and available under the `LICENSE`
