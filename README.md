@@ -16,12 +16,11 @@ It combines the images into an animated GIF using imageio library.
 `pip install pillow imageio`
 
 - Add images to the gifs/folder.
-- Run the script.
 
-`python create_gif.py`
+- Run the script `python create_gif.py`
 
 - Your output will be saved in the project folder.
 
-# Licence
+# License
 
 The project is open source and available under the `LICENSE`
